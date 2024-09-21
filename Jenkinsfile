@@ -11,7 +11,7 @@ sudo apt-get install -y apache2'''
 
     stage('build') {
       steps {
-        input(ok: 'yes', message: 'give input')
+        echo 'hello'
       }
     }
 
